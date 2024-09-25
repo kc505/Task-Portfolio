@@ -5,6 +5,9 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>My Portfolio</title>
     <link rel="stylesheet" href="style.css" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css"
+      integrity="sha512-Kc323vGBEqzTmouAECnVceyQqyqdsSiqLQISBL29aUW4U/M7pSPA/gEUZQqv1cwx4OnYxTxve5UMg5GT6L4JJg=="
+      crossorigin="anonymous" referrerpolicy="no-referrer" />
   </head>
   <body>
     <div class="begin">
@@ -38,7 +41,10 @@
               </div>
               <div class="clearfix">
                 <div class="box">
-                  <p>15 Y.Experience</p>
+                  <p>
+                    <h3>15 Y.</h3>
+                    Experience
+                  </p>
                 </div>
                 <div class="box">
                   <p>250+ Project Completed</p>
@@ -72,7 +78,7 @@
               </div>
               <div class="click">
                 <button class="btn1">My Project</button>
-                <button class="btn2">Download CV</button>
+                <button class="btn2"><i class="fa-solid fa-download"></i> Download CV</button>
               </div>
             </div>
           </div>
@@ -131,7 +137,7 @@
     <div class="container">
       <div class="head">
         <h1>Portfolio</h1>
-        <p>There aremany variations of passages of Lorem ipsum available, but the majority have suffered alteration.
+        <p>There are many variations of passages of Lorem ipsum available, but the majority have suffered alteration.
           Lorem ipsum, dolor sit amet consectetur adipisicing elit. Perspiciatis sequi animi error!
         </p>
       </div>
@@ -149,9 +155,18 @@
             <div class="desc"><p>UI-UX Design</p>
               <h3>Product Admin Dasboard</h3>
               <p>Vivamus eleifend convallis ante, non pharetra libero molestie laoreet. Donec id imperdiet lacus.</p>
-              <button class="btn4">Case Study</button>
+              <button type="submit" class="btn4" onclick="openPopup()">Case Study</button>
             </div>
           </div>
+        </div>
+        <div class="popup" id="popup">
+          <div class="popimg"><img src="images/Computerpic.jpg"></div>
+          <h2>Product Details</h2>
+          <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptatem accusantium doloremque maxime iure.</p>
+          <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Aliquam alias cupiditate quas, mollitia magnam qui, impedit libero itaque rem fugit pariatur eos nam assumenda sequi quod. Commodi inventore quod consequatur eligendi adipisci quibusdam, asperiores sint sunt ex. Tempore itaque vitae sequi culpa aut necessitatibus assumenda sit iste? Harum, totam reiciendis.</p>
+          <h2>Price Details</h2>
+          <p>Amount: $20</p>
+          <button type="button" onclick="closePopup()">OK</button>
         </div>
 
         <div class="responsive">
@@ -162,8 +177,20 @@
             <div class="desc"><p>UI-UX Design</p>
             <h3>Product Admin Dasboard</h3>
             <p>Vivamus eleifend convallis ante, non pharetra libero molestie laoreet. Donec id imperdiet lacus.</p>
-            <button class="btn4">Case Study</button></div>
+            <button type="submit" class="btn4" onclick="openPopup()">Case Study</button></div>
           </div>
+        </div>
+        <div class="popup" id="popup">
+          <div class="popimg"><img src="images/Computerpic.jpg"></div>
+          <h2>Product Details</h2>
+          <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptatem accusantium doloremque maxime iure.</p>
+          <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Aliquam alias cupiditate quas, mollitia magnam qui,
+            impedit libero itaque rem fugit pariatur eos nam assumenda sequi quod. Commodi inventore quod consequatur eligendi
+            adipisci quibusdam, asperiores sint sunt ex. Tempore itaque vitae sequi culpa aut necessitatibus assumenda sit iste?
+            Harum, totam reiciendis.</p>
+          <h2>Price Details</h2>
+          <p>Amount: $10</p>
+          <button type="button" onclick="closePopup()">OK</button>
         </div>
         <div class="responsive">
           <div class="gallery">
@@ -173,8 +200,20 @@
             <div class="desc"><p>UI-UX Design</p>
             <h3>Product Admin Dasboard</h3>
             <p>Vivamus eleifend convallis ante, non pharetra libero molestie laoreet. Donec id imperdiet lacus.</p>
-            <button class="btn4">Case Study</button></div>
+            <button type="submit" class="btn4" onclick="openPopup()">Case Study</button></div>
           </div>
+        </div>
+        <div class="popup" id="popup">
+          <div class="popimg"><img src="images/Computerpic.jpg"></div>
+          <h2>Product Details</h2>
+          <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptatem accusantium doloremque maxime iure.</p>
+          <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Aliquam alias cupiditate quas, mollitia magnam qui,
+            impedit libero itaque rem fugit pariatur eos nam assumenda sequi quod. Commodi inventore quod consequatur eligendi
+            adipisci quibusdam, asperiores sint sunt ex. Tempore itaque vitae sequi culpa aut necessitatibus assumenda sit iste?
+            Harum, totam reiciendis.</p>
+          <h2>Price Details</h2>
+          <p>Amount: $25</p>
+          <button type="button" onclick="closePopup()">OK</button>
         </div>
         <div class="responsive">
           <div class="gallery">
@@ -184,8 +223,20 @@
             <div class="desc"><p>UI-UX Design</p>
             <h3>Product Admin Dasboard</h3>
             <p>Vivamus eleifend convallis ante, non pharetra libero molestie laoreet. Donec id imperdiet lacus.</p>
-            <button class="btn4">Case Study</button></div>
+            <button type="submit" class="btn4" onclick="openPopup()">Case Study</button></div>
           </div>
+        </div>
+        <div class="popup" id="popup">
+          <div class="popimg"><img src="images/Computerpic.jpg"></div>
+          <h2>Product Details</h2>
+          <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptatem accusantium doloremque maxime iure.</p>
+          <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Aliquam alias cupiditate quas, mollitia magnam qui,
+            impedit libero itaque rem fugit pariatur eos nam assumenda sequi quod. Commodi inventore quod consequatur eligendi
+            adipisci quibusdam, asperiores sint sunt ex. Tempore itaque vitae sequi culpa aut necessitatibus assumenda sit iste?
+            Harum, totam reiciendis.</p>
+          <h2>Price Details</h2>
+          <p>Amount: $30</p>
+          <button type="button" onclick="closePopup()">OK</button>
         </div>
 
         <div class="responsive">
@@ -201,8 +252,20 @@
             <div class="desc"><p>UI-UX Design</p>
             <h3>Product Admin Dasboard</h3>
             <p>Vivamus eleifend convallis ante, non pharetra libero molestie laoreet. Donec id imperdiet lacus.</p>
-            <button class="btn4">Case Study</button></div>
+            <button type="submit" class="btn4" onclick="openPopup()">Case Study</button></div>
           </div>
+        </div>
+        <div class="popup" id="popup">
+          <div class="popimg"><img src="images/Computerpic.jpg"></div>
+          <h2>Product Details</h2>
+          <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptatem accusantium doloremque maxime iure.</p>
+          <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Aliquam alias cupiditate quas, mollitia magnam qui,
+            impedit libero itaque rem fugit pariatur eos nam assumenda sequi quod. Commodi inventore quod consequatur eligendi
+            adipisci quibusdam, asperiores sint sunt ex. Tempore itaque vitae sequi culpa aut necessitatibus assumenda sit iste?
+            Harum, totam reiciendis.</p>
+          <h2>Price Details</h2>
+          <p>Amount: $40</p>
+          <button type="button" onclick="closePopup()">OK</button>
         </div>
 
         <div class="responsive">
@@ -218,12 +281,24 @@
             <div class="desc"><p>UI-UX Design</p>
             <h3>Product Admin Dasboard</h3>
             <p>Vivamus eleifend convallis ante, non pharetra libero molestie laoreet. Donec id imperdiet lacus.</p>
-            <button class="btn4">Case Study</button></div>
+            <button type="submit" class="btn4" onclick="openPopup()">Case Study</button></div>
           </div>
+        </div>
+        <div class="popup" id="popup">
+          <div class="popimg"><img src="images/Computerpic.jpg"></div>
+          <h2>Product Details</h2>
+          <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptatem accusantium doloremque maxime iure.</p>
+          <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Aliquam alias cupiditate quas, mollitia magnam qui,
+            impedit libero itaque rem fugit pariatur eos nam assumenda sequi quod. Commodi inventore quod consequatur eligendi
+            adipisci quibusdam, asperiores sint sunt ex. Tempore itaque vitae sequi culpa aut necessitatibus assumenda sit iste?
+            Harum, totam reiciendis.</p>
+          <h2>Price Details</h2>
+          <p>Amount: $50</p>
+          <button type="button" onclick="closePopup()">OK</button>
         </div>
       </div>
       <div class="lastbtn">
-        <button>More Project</button>
+        <button class="lastbtn">More Project</button>
       </div>
     </div>
     <!-- <div class="clearfix"></div> -->
@@ -361,15 +436,27 @@
               <p>There are many passages of Lorem ipsum available, but the majority have suffered alterations</p>
             </div>
             <div class="details2">
-              <form action="">
-                <input type="text" class="inputs" placeholder="Name">
-                <input type="text" class="inputs" placeholder="Email">
-                <input type="text" class="inputs" placeholder="Location">
-                <input type="text" class="inputs" placeholder="Budget">
-                <input type="text" class="inputs" placeholder="Subject">
-                <input type="text" class="inputs" placeholder="Message">
+              <form onsubmit="event.preventDefault(); validateForm()">
+                <input type="text" id="name" class="inputs" placeholder="Name" required>
+                <small class="error"></small>
+
+                <input type="email" id="email" class="inputs" placeholder="Email">
+                <small class="error"></small>
+
+                <input type="text" id="location" class="inputs" placeholder="Location">
+                <small class="error"></small>
+
+                <input type="number" id="budget" class="inputs" placeholder="Budget">
+                <small class="error"></small>
+
+                <input type="text" id="subject" class="inputs" placeholder="Subject">
+                <small class="error"></small>
+
+                <input type="text" id="message" class="inputs" placeholder="Message">
+                <small class="error"></small>
+                <button type="submit" class="btn6">Submit</button>
+                <p id="success"></p>
               </form>
-              <button class="btn6">Submit</button>
             </div>
           </div>
         </div>
@@ -390,5 +477,6 @@
     </ul>
     <p>Copyright &copy 2022 Picto</p>
   </div>
+  <script src="app.js"></script>
   </body>
 </html>
